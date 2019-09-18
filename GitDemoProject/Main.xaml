@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="396,661.333333333333" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="396,764" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -46,7 +46,7 @@
       <AssemblyReference>UiPath.Mail</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="376,561.333333333333" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap:VirtualizedContainerService.HintSize="376,664" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Default="Hello World" Name="var" />
       <Variable x:TypeArguments="x:String" Default="Hello" Name="variable1" />
@@ -58,8 +58,9 @@
     </sap:WorkflowViewStateService.ViewState>
     <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="334,62.6666666666667" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="[variable1]" />
     <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" Buttons="Ok" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="334,58.6666666666667" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[var]" TopMost="True" />
-    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="334,62.6666666666667" sap2010:WorkflowViewState.IdRef="WriteLine_2" />
-    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="334,62.6666666666667" sap2010:WorkflowViewState.IdRef="WriteLine_5" />
-    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="334,62.6666666666667" sap2010:WorkflowViewState.IdRef="WriteLine_7" />
+    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="334,62.6666666666667" sap2010:WorkflowViewState.IdRef="WriteLine_7" Text="[var]" />
+    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="334,62.6666666666667" sap2010:WorkflowViewState.IdRef="WriteLine_10" Text="[var]" />
+    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="334,62.6666666666667" sap2010:WorkflowViewState.IdRef="WriteLine_11" Text="[var]" />
+    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="334,62.6666666666667" sap2010:WorkflowViewState.IdRef="WriteLine_12" Text="[var]" />
   </Sequence>
 </Activity>
